@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Per-function raw experiment output (regeneratable; can be very large).
+# We commit only the merged results under results/ — the per-function CSVs
+# under experiments/ are produced locally by the run_*.py scripts.
+experiments/RD_CEC2017_D30/
+experiments/RD_CEC2020_D10/
+experiments/CRD_CEC2017_D30/
+experiments/CRD_CEC2020_D10/
+experiments/RD_CRD_MERGED_CEC2017_D30/
+experiments/RD_CRD_MERGED_CEC2020_D10/
+experiments/RD_CRD_MERGED_ALL/
+
+# Local outputs from the analysis phase (regeneratable)
+plots/
+tables/
+results/_smoke/
+experiments_output/
+
+# Local logs / temp
+*.log
+*.tmp
+.ipynb_checkpoints/
